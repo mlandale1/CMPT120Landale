@@ -7,5 +7,6 @@ def main():
 
     value = 4*(1-total)
     print(value)
+    print("Error is: ",abs(math.pi - value))
 
 main()
