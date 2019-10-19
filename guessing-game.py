@@ -18,16 +18,17 @@ while True:
         else:
                 print("Incorrect!")
 
+    
+
 def main():
     while continue_game():
         continue_game()
 
-def continue_game
-():
+def continue_game():
 
     answer = input("Do you wish to continue?: ")
-
-    if answer == "yes":
+#Issue S - Must be Uppercase "Q"
+    if answer == "q":
         print("You have chosen to continue on")
         return True
     else:
