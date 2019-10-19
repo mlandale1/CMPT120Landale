@@ -2,12 +2,21 @@
 #10/16/2019
 #Matt Landale
 
-def isTrue(prompt):
-    animal = "lion"
+import random
 
-    if prompt == animal:
+animal = "lion"
 
-        return "Correct!"
-    else:
-        return "Wrong!"
+print("Lets play a guessing game!")
+            
+while True:
+        print("I am thinking of a random animal. Try to guess the animal!")
+        prompt = input("Guess: ")
+        animal = "lion"
+
+        if prompt == animal:
+            print("Correct!")
+            break
+        else:
+            print("Incorrect!")
+            
 
