@@ -1,3 +1,9 @@
+# JA: Maybe you misunderstood the project, but you are supposed to be
+# able to solve a complete equation, not just a simple one operator equation
+
+# You need to get this working for the second project. Stop by my office if
+# you need help.
+
 def add(a, b):
    return a + b
 
