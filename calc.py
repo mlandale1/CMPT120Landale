@@ -1,6 +1,8 @@
 from graphics import *
 from math import *
 
+# Always add comments to your code
+
 def main():
     win = GraphWin('Simple Calculator',400,600)
     win.setBackground('slategray')
@@ -141,7 +143,8 @@ def main():
     OFF.draw(win)
 
     while True:
-        px,py = Point.getX(win.getMouse()),Point.getY(win.getMouse())
+        point = win.getMouse()
+        px,py = point.getX(),point.getY()
         if 10<=px<=60 and 80<=py<=130:
             text.setText(text.getText()+"+")
         if 310<=px<=360 and 140<=py<=190:
@@ -182,6 +185,7 @@ def main():
             text.setText(text.getText()+"9")
         if 170<=px<=240 and 440<=py<=510:#=
             try:
+                # You have to use your equation solving function
                 result = eval(text.getText())
             except:
                 result = "ERROR"
