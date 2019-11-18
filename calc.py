@@ -1,8 +1,8 @@
 from tkinter import *
 
-
-
-
+# JA: Did this come from the book?
+# This is using eval() which was specifically not allowed
+# There are no memory functions
 
 class calculate():
 

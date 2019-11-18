@@ -2,6 +2,8 @@
 # Lab 8
 # 15 November 2019
 
+# JA: Always remember to add comments to your code
+
 class Product(object):
     def __init__(self, product, quantity, price):
         """Represents the item"""
@@ -52,7 +54,6 @@ class Product(object):
 
     def inStock(self, product, quantity):
         """checks if an amount of products are in stock"""
-
 
 ultrasonicRangeFinder = Product("Ultrasonic range finder", 4, 2.50)
 servoMotor = Product("Servo motor", 10, 14.99)
