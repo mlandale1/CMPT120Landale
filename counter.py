@@ -1,25 +1,26 @@
 # Matt Landale
 # Lab 9
 
-    
-class Counter:
+class DecrementingCounter:
+    """Simple counter that can be incremented, decremented, and cleared.""" 
+ 
     def __init__(self):
-        self.count = 0
-
+        """Initialize counter to 0."""
+        self.count = 0 
+ 
     def increment(self):
-        self.count += 1
-
+        """Increment counter by 1."""
+        self.count += 1 
+ 
+    def decrement(self):
+        """Decrement counter by 1."""
+        self.count -= 1
+        
     def clear(self):
-        self.count = 0
-
+        """Clear counter to 0."""
+        self.count = 0 
+ 
     def get_value(self):
-        return self.count
-    
-my_counter = Counter()
-my_counter.get_value()
-my_counter.increment()
-my_counter.increment()
-my_counter.get_value()
-my_counter.clear()
-my_counter.get_value()
-
+        """Return the current value of the counter."""
+        return self.count 
+ 
